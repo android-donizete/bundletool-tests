@@ -4,9 +4,19 @@ populate() {
 
     while read REPO_URL; do
         pushd $OUT
-        git clone --recursive -j$(nproc) $REPO_URL &
+        (git clone --recursive -j$(nproc) $REPO_URL &)
         popd
     done < $IN
+}
+
+build() {
+    IN=$1
+    for REPO in $(ls $IN); do
+        pushd $IN/$REPO
+        ./gradlew assembleDebug
+        ./gradlew bundleDebug
+        popd
+    done
 }
 
 measure() {
@@ -16,7 +26,9 @@ measure() {
 }
 
 start() {
-    populate repos.txt external
+    populate data/repos.txt external
+    build external
+    measure external
 }
 
 FN=$1
