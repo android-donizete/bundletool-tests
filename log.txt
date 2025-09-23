@@ -1,0 +1,45 @@
+Getting data for AntennaPod
+APKs found: 
+external/AntennaPod/app/build/outputs/apk/play/debug/app-play-debug.apk external/AntennaPod/app/build/outputs/apk/free/debug/app-free-debug.apk
+
+BUNDLES found: 
+external/AntennaPod/app/build/outputs/bundle/playDebug/app-play-debug.aab external/AntennaPod/app/build/outputs/bundle/freeDebug/app-free-debug.aab
+external/AntennaPod/app/build/outputs/bundle/playDebug/app-play-debug.aab external/AntennaPod/app/build/outputs/bundle/freeDebug/app-free-debug.aab
+-------------------------------
+
+Getting data for NewPipe
+APKs found: 
+external/NewPipe/app/build/outputs/apk/debug/app-debug.apk
+
+BUNDLES found: 
+external/NewPipe/app/build/outputs/bundle/debug/app-debug.aab
+external/NewPipe/app/build/outputs/bundle/debug/app-debug.aab
+-------------------------------
+
+Getting data for Signal-Android
+APKs found: 
+external/Signal-Android/paging/app/build/outputs/apk/debug/paging-app-debug.apk external/Signal-Android/image-editor/app/build/outputs/apk/debug/image-editor-app-debug.apk external/Signal-Android/device-transfer/app/build/outputs/apk/debug/device-transfer-app-debug.apk external/Signal-Android/video/app/build/outputs/apk/debug/video-app-debug.apk external/Signal-Android/app/build/outputs/apk/playProd/debug/Signal-Android-play-prod-x86_64-debug-7.57.1.apk external/Signal-Android/app/build/outputs/apk/playProd/debug/Signal-Android-play-prod-x86-debug-7.57.1.apk external/Signal-Android/app/build/outputs/apk/playProd/debug/Signal-Android-play-prod-arm64-v8a-debug-7.57.1.apk external/Signal-Android/app/build/outputs/apk/playProd/debug/Signal-Android-play-prod-armeabi-v7a-debug-7.57.1.apk external/Signal-Android/app/build/outputs/apk/playProd/debug/Signal-Android-play-prod-universal-debug-7.57.1.apk external/Signal-Android/app/build/outputs/apk/playStaging/debug/Signal-Android-play-staging-armeabi-v7a-debug-7.57.1.apk external/Signal-Android/app/build/outputs/apk/playStaging/debug/Signal-Android-play-staging-x86-debug-7.57.1.apk external/Signal-Android/app/build/outputs/apk/playStaging/debug/Signal-Android-play-staging-x86_64-debug-7.57.1.apk external/Signal-Android/app/build/outputs/apk/playStaging/debug/Signal-Android-play-staging-arm64-v8a-debug-7.57.1.apk external/Signal-Android/app/build/outputs/apk/playStaging/debug/Signal-Android-play-staging-universal-debug-7.57.1.apk external/Signal-Android/donations/app/build/outputs/apk/debug/donations-app-debug.apk external/Signal-Android/spinner/app/build/outputs/apk/debug/spinner-app-debug.apk external/Signal-Android/debuglogs-viewer/app/build/outputs/apk/debug/debuglogs-viewer-app-debug.apk external/Signal-Android/contacts/app/build/outputs/apk/debug/contacts-app-debug.apk external/Signal-Android/qr/app/build/outputs/apk/debug/qr-app-debug.apk
+
+BUNDLES found: 
+external/Signal-Android/paging/app/build/outputs/bundle/debug/paging-app-debug.aab external/Signal-Android/image-editor/app/build/outputs/bundle/debug/image-editor-app-debug.aab external/Signal-Android/device-transfer/app/build/outputs/bundle/debug/device-transfer-app-debug.aab external/Signal-Android/video/app/build/outputs/bundle/debug/video-app-debug.aab external/Signal-Android/app/build/outputs/bundle/playProdDebug/Signal-Android-play-prod-debug.aab external/Signal-Android/app/build/outputs/bundle/playStagingDebug/Signal-Android-play-staging-debug.aab external/Signal-Android/donations/app/build/outputs/bundle/debug/donations-app-debug.aab external/Signal-Android/spinner/app/build/outputs/bundle/debug/spinner-app-debug.aab external/Signal-Android/debuglogs-viewer/app/build/outputs/bundle/debug/debuglogs-viewer-app-debug.aab external/Signal-Android/contacts/app/build/outputs/bundle/debug/contacts-app-debug.aab external/Signal-Android/qr/app/build/outputs/bundle/debug/qr-app-debug.aab
+external/Signal-Android/paging/app/build/outputs/bundle/debug/paging-app-debug.aab external/Signal-Android/image-editor/app/build/outputs/bundle/debug/image-editor-app-debug.aab external/Signal-Android/device-transfer/app/build/outputs/bundle/debug/device-transfer-app-debug.aab external/Signal-Android/video/app/build/outputs/bundle/debug/video-app-debug.aab external/Signal-Android/app/build/outputs/bundle/playProdDebug/Signal-Android-play-prod-debug.aab external/Signal-Android/app/build/outputs/bundle/playStagingDebug/Signal-Android-play-staging-debug.aab external/Signal-Android/donations/app/build/outputs/bundle/debug/donations-app-debug.aab external/Signal-Android/spinner/app/build/outputs/bundle/debug/spinner-app-debug.aab external/Signal-Android/debuglogs-viewer/app/build/outputs/bundle/debug/debuglogs-viewer-app-debug.aab external/Signal-Android/contacts/app/build/outputs/bundle/debug/contacts-app-debug.aab external/Signal-Android/qr/app/build/outputs/bundle/debug/qr-app-debug.aab
+-------------------------------
+
+Getting data for thunderbird-android
+APKs found: 
+external/thunderbird-android/app-ui-catalog/build/outputs/apk/debug/app-ui-catalog-debug.apk external/thunderbird-android/app-thunderbird/build/outputs/apk/foss/debug/app-thunderbird-foss-debug.apk external/thunderbird-android/app-thunderbird/build/outputs/apk/full/debug/app-thunderbird-full-debug.apk external/thunderbird-android/app-k9mail/build/outputs/apk/foss/debug/app-k9mail-foss-debug.apk external/thunderbird-android/app-k9mail/build/outputs/apk/full/debug/app-k9mail-full-debug.apk
+
+BUNDLES found: 
+external/thunderbird-android/app-ui-catalog/build/outputs/bundle/debug/app-ui-catalog-debug.aab external/thunderbird-android/app-thunderbird/build/outputs/bundle/fullDebug/app-thunderbird-full-debug.aab external/thunderbird-android/app-thunderbird/build/outputs/bundle/fossDebug/app-thunderbird-foss-debug.aab external/thunderbird-android/app-k9mail/build/outputs/bundle/fullDebug/app-k9mail-full-debug.aab external/thunderbird-android/app-k9mail/build/outputs/bundle/fossDebug/app-k9mail-foss-debug.aab
+external/thunderbird-android/app-ui-catalog/build/outputs/bundle/debug/app-ui-catalog-debug.aab external/thunderbird-android/app-thunderbird/build/outputs/bundle/fullDebug/app-thunderbird-full-debug.aab external/thunderbird-android/app-thunderbird/build/outputs/bundle/fossDebug/app-thunderbird-foss-debug.aab external/thunderbird-android/app-k9mail/build/outputs/bundle/fullDebug/app-k9mail-full-debug.aab external/thunderbird-android/app-k9mail/build/outputs/bundle/fossDebug/app-k9mail-foss-debug.aab
+-------------------------------
+
+Getting data for Tusky
+APKs found: 
+external/Tusky/app/build/outputs/apk/blue/debug/Tusky_31.0_137_587d132e_blue_debug.apk external/Tusky/app/build/outputs/apk/green/debug/Tusky_31.0-587d132e_137_587d132e_green_debug.apk
+
+BUNDLES found: 
+external/Tusky/app/build/outputs/bundle/blueDebug/app-blue-debug.aab external/Tusky/app/build/outputs/bundle/greenDebug/app-green-debug.aab
+external/Tusky/app/build/outputs/bundle/blueDebug/app-blue-debug.aab external/Tusky/app/build/outputs/bundle/greenDebug/app-green-debug.aab
+-------------------------------
+

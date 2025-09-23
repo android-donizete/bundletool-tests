@@ -26,15 +26,15 @@ measure() {
     for REPO in $(ls $IN); do
         echo "Getting data for ${REPO}"
         
-        APKS=`find $IN/$REPO -name *.apk`
-        echo "APKs found: "
-        echo $APKS
+        APKS=($(find $IN/$REPO -name *.apk))
+        echo "APKs found: ${#APKS[*]}"
+        echo ${APKS[@]}
 
         echo
 
-        BUNDLES=`find $IN/$REPO -name *.aab | grep -v intermediary`
-        echo "BUNDLES found: "
-        echo $BUNDLES
+        BUNDLES=($(find $IN/$REPO -name *.aab | grep -v intermediary))
+        echo "BUNDLES found: ${#BUNDLES[*]}"
+        echo ${BUNDLES[@]}
 
         echo -------------------------------
         echo
@@ -44,7 +44,7 @@ measure() {
 start() {
     populate data/repos.txt external
     build external
-    measure external
+    measure external > log.txt
 }
 
 FN=$1
