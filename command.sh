@@ -21,8 +21,24 @@ build() {
 
 measure() {
     BT=`ls bundletool*.jar`
+    IN=$1
 
-    echo $BT
+    for REPO in $(ls $IN); do
+        echo "Getting data for ${REPO}"
+        
+        APKS=`find $IN/$REPO -name *.apk`
+        echo "APKs found: "
+        echo $APKS
+
+        echo
+
+        BUNDLES=`find $IN/$REPO -name *.aab | grep -v intermediary`
+        echo "BUNDLES found: "
+        echo $BUNDLES
+
+        echo -------------------------------
+        echo
+    done
 }
 
 start() {
