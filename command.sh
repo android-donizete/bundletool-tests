@@ -4,13 +4,14 @@ populate() {
 
     while read REPO_URL; do
         pushd $OUT
-        (git clone --recursive -j$(nproc) $REPO_URL &)
+        git clone --recursive -j$(nproc) $REPO_URL
         popd
     done < $IN
 }
 
 build() {
     IN=$1
+
     for REPO in $(ls $IN); do
         pushd $IN/$REPO
         ./gradlew assembleDebug
@@ -48,8 +49,7 @@ measure() {
 
             java -jar $BT build-apks                \
                 --bundle=$BUNDLE                    \
-                --output="$DIR/output.apks"         \
-                --device-spec=$JSON                 > /dev/null
+                --output="$DIR/output.apks"         > /dev/null
 
             java -jar $BT extract-apks              \
                 --apks="$DIR/output.apks"           \
