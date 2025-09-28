@@ -49,6 +49,7 @@ measure() {
 
             java -jar $BT build-apks                \
                 --bundle=$BUNDLE                    \
+                --mode=default                      \
                 --output="$DIR/output.apks"         > /dev/null
 
             java -jar $BT extract-apks              \
@@ -60,7 +61,7 @@ measure() {
                 du -ch $APK
                 du -ch $BUNDLE
             echo "--"
-                du -ch $DIR/base-*
+                du -ch $DIR/*.apk
             echo "-- -- - -- --"
 
             echo
