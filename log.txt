@@ -1,22 +1,142 @@
+/media/doni/external/zzzz/bundletool-tests/repositories /media/doni/external/zzzz/bundletool-tests
+/media/doni/external/zzzz/bundletool-tests
+/media/doni/external/zzzz/bundletool-tests/repositories/bundletool-sample /media/doni/external/zzzz/bundletool-tests
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:packageDebug UP-TO-DATE
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 783ms
+34 actionable tasks: 34 up-to-date
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processApplicationManifestDebugForBundle UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:bundleDebugResources UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:buildDebugPreBundle UP-TO-DATE
+> Task :app:parseDebugIntegrityConfig UP-TO-DATE
+> Task :app:packageDebugBundle UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:signDebugBundle UP-TO-DATE
+> Task :app:produceDebugBundleIdeListingFile UP-TO-DATE
+> Task :app:createDebugBundleListingFileRedirect UP-TO-DATE
+> Task :app:bundleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 891ms
+38 actionable tasks: 38 up-to-date
+/media/doni/external/zzzz/bundletool-tests
+
 Getting data for bundletool-sample
+
 APKs found: 1
-external/bundletool-sample/app/build/outputs/apk/debug/app-debug.apk
+repositories/bundletool-sample/app/build/outputs/apk/debug/app-debug.apk
 
 BUNDLES found: 1
-external/bundletool-sample/app/build/outputs/bundle/debug/app-debug.aab
+repositories/bundletool-sample/app/build/outputs/bundle/debug/app-debug.aab
 
-Processing bundle: external/bundletool-sample/app/build/outputs/bundle/debug/app-debug.aab
-Processing apk: external/bundletool-sample/app/build/outputs/apk/debug/app-debug.apk
+Processing data for device medium_phone_36.json
+Processing bundle: repositories/bundletool-sample/app/build/outputs/bundle/debug/app-debug.aab
+Processing apk: repositories/bundletool-sample/app/build/outputs/apk/debug/app-debug.apk
+
 -- SUMMARY --
-154M	external/bundletool-sample/app/build/outputs/apk/debug/app-debug.apk
+154M	repositories/bundletool-sample/app/build/outputs/apk/debug/app-debug.apk
 154M	total
-153M	external/bundletool-sample/app/build/outputs/bundle/debug/app-debug.aab
+153M	repositories/bundletool-sample/app/build/outputs/bundle/debug/app-debug.aab
 153M	total
 --
-40K	/tmp/tmp.1lYwcgKtJZ/base-en.apk
-13M	/tmp/tmp.1lYwcgKtJZ/base-master_2.apk
-42M	/tmp/tmp.1lYwcgKtJZ/base-xxhdpi.apk
+40K	/tmp/tmp.f63SkeIvpG/base-en.apk
+13M	/tmp/tmp.f63SkeIvpG/base-master_2.apk
+42M	/tmp/tmp.f63SkeIvpG/base-xxhdpi.apk
 54M	total
 -- -- - -- --
 
-----------------------------------------------
+Processing data for device xiaomi_pad_7.json
+Processing bundle: repositories/bundletool-sample/app/build/outputs/bundle/debug/app-debug.aab
+Processing apk: repositories/bundletool-sample/app/build/outputs/apk/debug/app-debug.apk
+
+-- SUMMARY --
+154M	repositories/bundletool-sample/app/build/outputs/apk/debug/app-debug.apk
+154M	total
+153M	repositories/bundletool-sample/app/build/outputs/bundle/debug/app-debug.aab
+153M	total
+--
+40K	/tmp/tmp.PSjvCooUBS/base-en.apk
+13M	/tmp/tmp.PSjvCooUBS/base-master_2.apk
+42M	/tmp/tmp.PSjvCooUBS/base-xxhdpi.apk
+54M	total
+-- -- - -- --
+

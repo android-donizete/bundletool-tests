@@ -1,0 +1,1 @@
+git@github.com:android-donizete/bundletool-sample.git

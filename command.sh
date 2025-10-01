@@ -18,20 +18,22 @@ build() {
         ./gradlew bundleDebug
         popd
     done
+
+    echo
 }
 
 measure() {
     BT=`ls bundletool*.jar`
     IN=$1
-    JSON=$2
+    DEVICES=$2
 
     for REPO in $(ls $IN); do
         echo "Getting data for ${REPO}"
+        echo
         
         APKS=($(find $IN/$REPO -name *.apk))
         echo "APKs found: ${#APKS[*]}"
         echo ${APKS[@]}
-
         echo
 
         BUNDLES=($(find $IN/$REPO -name *.aab | grep -v intermediary))
@@ -39,45 +41,49 @@ measure() {
         echo ${BUNDLES[@]}
         echo
 
-        for INDEX in ${!BUNDLES[@]}; do
-            DIR=`mktemp --directory`
+        for DEVICE in $(ls $DEVICES); do
+            JSON="${DEVICES}/${DEVICE}"
+            echo "Processing data for device ${DEVICE}"
 
-            BUNDLE=${BUNDLES[$INDEX]}
-            APK=${APKS[$INDEX]}
-            echo "Processing bundle: $BUNDLE"
-            echo "Processing apk: $APK"
+            for BINDEX in ${!BUNDLES[@]}; do
+                DIR=`mktemp --directory`
+                BUNDLE=${BUNDLES[$BINDEX]}
+                APK=${APKS[$BINDEX]}
 
-            java -jar $BT build-apks                \
-                --bundle=$BUNDLE                    \
-                --mode=default                      \
-                --output="$DIR/output.apks"         > /dev/null
+                echo "Processing bundle: $BUNDLE"
+                echo "Processing apk: $APK"
+                echo
 
-            java -jar $BT extract-apks              \
-                --apks="$DIR/output.apks"           \
-                --output-dir=$DIR                   \
-                --device-spec=$JSON                 > /dev/null
+                java -jar $BT build-apks                \
+                    --bundle=$BUNDLE                    \
+                    --mode=default                      \
+                    --output="$DIR/output.apks"         > /dev/null
 
-            echo "-- SUMMARY --"
+                java -jar $BT extract-apks              \
+                    --apks="$DIR/output.apks"           \
+                    --output-dir=$DIR                   \
+                    --device-spec=$JSON                 > /dev/null
+
+                echo "-- SUMMARY --"
                 du -ch $APK
                 du -ch $BUNDLE
-            echo "--"
+                echo "--"
                 du -ch $DIR/*.apk
-            echo "-- -- - -- --"
+                echo "-- -- - -- --"
 
-            echo
+                echo
+            done
         done
-
-        echo ----------------------------------------------
     done
 }
 
 start() {
-    populate data/repos.txt external
-    build external
-    measure external data/medium_phone_36.json > log.txt
+    populate repos.txt repositories
+    build repositories
+    measure repositories devices
 }
 
 FN=$1
 shift
 
-$FN "$@"
+$FN "$@" > log.txt
