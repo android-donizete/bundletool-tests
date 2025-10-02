@@ -46,7 +46,7 @@
 > Task :app:createDebugApkListingFileRedirect UP-TO-DATE
 > Task :app:assembleDebug UP-TO-DATE
 
-BUILD SUCCESSFUL in 896ms
+BUILD SUCCESSFUL in 738ms
 34 actionable tasks: 34 up-to-date
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
@@ -96,7 +96,7 @@ BUILD SUCCESSFUL in 896ms
 > Task :app:createDebugBundleListingFileRedirect UP-TO-DATE
 > Task :app:bundleDebug UP-TO-DATE
 
-BUILD SUCCESSFUL in 867ms
+BUILD SUCCESSFUL in 752ms
 38 actionable tasks: 38 up-to-date
 /media/doni/external/zzzz/bundletool-tests
 
@@ -118,10 +118,8 @@ Processing apk: repositories/bundletool-sample/app/build/outputs/apk/debug/app-d
 153M	repositories/bundletool-sample/app/build/outputs/bundle/debug/app-debug.aab
 153M	total
 --
-40K	/tmp/tmp.uaqcqCHHsK/base-en.apk
-13M	/tmp/tmp.uaqcqCHHsK/base-master_2.apk
-42M	/tmp/tmp.uaqcqCHHsK/base-xxhdpi.apk
-54M	total
+47M	/tmp/tmp.wVDQVCGd9g/system.apk
+47M	total
 -- -- - -- --
 
 Processing data for device small_device.json
@@ -134,10 +132,8 @@ Processing apk: repositories/bundletool-sample/app/build/outputs/apk/debug/app-d
 153M	repositories/bundletool-sample/app/build/outputs/bundle/debug/app-debug.aab
 153M	total
 --
-40K	/tmp/tmp.ajyfXtNqZO/base-en.apk
-13M	/tmp/tmp.ajyfXtNqZO/base-master_2.apk
-20M	/tmp/tmp.ajyfXtNqZO/base-xhdpi.apk
-32M	total
+25M	/tmp/tmp.HZr90En8J0/system.apk
+25M	total
 -- -- - -- --
 
 Processing data for device tv_4k.json
@@ -150,10 +146,8 @@ Processing apk: repositories/bundletool-sample/app/build/outputs/apk/debug/app-d
 153M	repositories/bundletool-sample/app/build/outputs/bundle/debug/app-debug.aab
 153M	total
 --
-40K	/tmp/tmp.7HxM7bArI9/base-en.apk
-13M	/tmp/tmp.7HxM7bArI9/base-master_2.apk
-70M	/tmp/tmp.7HxM7bArI9/base-xxxhdpi.apk
-82M	total
+75M	/tmp/tmp.KdA3VAJg72/system.apk
+75M	total
 -- -- - -- --
 
 Processing data for device xiaomi_pad_7.json
@@ -166,9 +160,7 @@ Processing apk: repositories/bundletool-sample/app/build/outputs/apk/debug/app-d
 153M	repositories/bundletool-sample/app/build/outputs/bundle/debug/app-debug.aab
 153M	total
 --
-40K	/tmp/tmp.tsCF2n9rAB/base-en.apk
-13M	/tmp/tmp.tsCF2n9rAB/base-master_2.apk
-42M	/tmp/tmp.tsCF2n9rAB/base-xxhdpi.apk
-54M	total
+47M	/tmp/tmp.I1SnG9hpya/system.apk
+47M	total
 -- -- - -- --
 

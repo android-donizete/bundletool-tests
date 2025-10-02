@@ -56,7 +56,8 @@ measure() {
 
                 java -jar $BT build-apks                \
                     --bundle=$BUNDLE                    \
-                    --mode=default                      \
+                    --mode=system                       \
+                    --device-spec=$JSON                 \
                     --output="$DIR/output.apks"         > /dev/null
 
                 java -jar $BT extract-apks              \
